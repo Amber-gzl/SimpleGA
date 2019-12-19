@@ -17,5 +17,5 @@ if __name__ == '__main__':
     pop_size = 50		# 种群数量
     chrom_length = 10		# 染色体长度
     pop = geneEncoding(pop_size, chrom_length)
-    print pop
-    print len(pop)
+    print(pop)
+    print(len(pop))

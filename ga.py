@@ -11,7 +11,7 @@ from mutation import mutation
 from best import best
 from geneEncoding import geneEncoding
 
-print 'y = 10 * math.sin(5 * x) + 7 * math.cos(4 * x)'
+print('y = 10 * math.sin(5 * x) + 7 * math.cos(4 * x)')
 
 
 # 计算2进制序列代表的数值
@@ -51,8 +51,8 @@ print(best_fit)
 print(obj_value[1])
 
 
-print results
-print "y = %f, x = %f" % (results[-1][0], results[-1][1])
+print(results)
+print("y = %f, x = %f" % (results[-1][0], results[-1][1]))
 
 X = []
 Y = []
